@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Sujitha Food Products</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav {
+            background-color: #333;
+            color: white;
+            text-align: center;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+        nav li {
+            display: inline;
+            margin: 10px;
+        }
+        .container {
+            max-width: 960px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .product {
+            background-color: white;
+            border: 1px solid #ddd;
+            padding: 10px;
+            margin: 10px;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Sujitha Food Products</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Products</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Contact Us</a></li>
+        </ul>
+    </nav>
+    <div class="container">
+        <h2>Our Products</h2>
+        <div class="product">
+            <h3>Product 1</h3>
+            <p>Description of Product 1.</p>
+        </div>
+        <div class="product">
+            <h3>Product 2</h3>
+            <p>Description of Product 2.</p>
+        </div>
+        <!-- Add more product sections here -->
+    </div>
+    <footer>
+        &copy; 2023 Sujitha Food Products Company
+    </footer>
+</body>
+</html>
